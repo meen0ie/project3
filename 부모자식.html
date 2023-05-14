@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent ul {
+            background-color: yellow;
+        }
+         li .grandparent  {
+             color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <ul>
+            <li>자식 요소 1</li>
+            <li>자식 요소 2</li>
+            <li>자식 요소 3</li>
+            <li>자식 요소 4</li>
+        </ul>
+    </div>
+    <div class="grandparent">
+        <h1> 조부모 요소 </h1>
+        <div class="pparent"> 
+            <h2>부모 요소</h2>
+            <ul>
+                <li>자식 요소 1</li>
+                <li>자식 요소 2</li>
+                <li>자식 요소 3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
